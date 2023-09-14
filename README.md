@@ -69,7 +69,7 @@ The **Budget Expenses App** is a classic example of a budget website, that helps
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [You can check the live demo here](https://budgetsmart.onrender.com/)
+- [You can check the live demo here](https://smartbudget-41er.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
