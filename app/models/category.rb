@@ -16,7 +16,6 @@ class Category < ApplicationRecord
     { class: 'bi bi-bank', name: 'Saving' }
   ].freeze
 
-
   def total_expenses_amount
     expenses.sum(:amount)
   end

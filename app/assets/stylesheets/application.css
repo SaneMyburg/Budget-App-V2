@@ -14,7 +14,7 @@
  *= require_self
  */
 
- .home-page {
+.home-page {
   height: 100vh;
   display: flex;
   flex-direction: column;
