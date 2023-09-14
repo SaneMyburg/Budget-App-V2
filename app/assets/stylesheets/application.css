@@ -64,3 +64,24 @@
 .borderless {
   border: none;
 }
+
+.icon-lg {
+  font-size: 60px;
+}
+
+.light-gray {
+  color: #949ea8;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.col-auto {
+  flex: 0 0 auto;
+}
+
+.category-list {
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+}
