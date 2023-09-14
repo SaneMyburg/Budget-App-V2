@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
   devise_for :users
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  root 'users#index'
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  authenticate :user do
+    resources :categories, only: [:index, :new, :create] do
+      resources :expenses, only: [:index, :new, :create]
+    end
+    delete '/sign_out', to: 'users/sessions#destroy', as: :sign_out
+  end
 end
